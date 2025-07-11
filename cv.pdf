@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indunil Jayaranga - CV</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .section { margin-bottom: 25px; }
+        .section h2 { color: #387478; border-bottom: 2px solid #387478; padding-bottom: 5px; }
+        .contact-info { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .contact-info p { margin: 5px 0; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .skill-category { background: #f8f9fa; padding: 15px; border-radius: 8px; }
+        .skill-category h3 { margin-top: 0; color: #243642; }
+        .experience-item { margin-bottom: 20px; padding: 15px; border-left: 4px solid #387478; }
+        .experience-item h3 { margin-top: 0; color: #243642; }
+        .experience-item .date { color: #666; font-style: italic; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Indunil Jayaranga</h1>
+        <p><strong>Cybersecurity Analyst | Independent Security Researcher</strong></p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> induniljayaranga@gmail.com</p>
+            <p><strong>Phone:</strong> +94 75 123 4567</p>
+            <p><strong>GitHub:</strong> https://github.com/Indunil-jayaranga</p>
+            <p><strong>LinkedIn:</strong> http://nkedin.com/in/indunil-jayaranga-484a1b244/</p>
+            <p><strong>Dev.to:</strong> https://dev.to/indunil</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Experienced Cybersecurity Analyst with expertise in server & network security, offensive & defensive security controls, and countermeasures. Passionate about OSINT, malware analysis, and ethical hacking research with active CTF participation. Skilled in implementing security protocols, conducting vulnerability assessments, and developing security awareness programs.</p>
+    </div>
+
+    <div class="section">
+        <h2>Core Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Security Analysis</h3>
+                <ul>
+                    <li>Vulnerability Assessment</li>
+                    <li>Penetration Testing</li>
+                    <li>Security Auditing</li>
+                    <li>Risk Assessment</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Digital Forensics</h3>
+                <ul>
+                    <li>Incident Response</li>
+                    <li>Malware Analysis</li>
+                    <li>Network Forensics</li>
+                    <li>Evidence Collection</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Security Tools</h3>
+                <ul>
+                    <li>Wireshark</li>
+                    <li>Nmap</li>
+                    <li>Metasploit</li>
+                    <li>Burp Suite</li>
+                    <li>OWASP ZAP</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>OSINT & Research</h3>
+                <ul>
+                    <li>Intelligence Gathering</li>
+                    <li>Threat Hunting</li>
+                    <li>Research & Analysis</li>
+                    <li>CTF Competitions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Cybersecurity Analyst</h3>
+            <p class="date">2022 - Present</p>
+            <ul>
+                <li>Conducted comprehensive security assessments and vulnerability analyses</li>
+                <li>Implemented security monitoring and incident response procedures</li>
+                <li>Developed and maintained security documentation and policies</li>
+                <li>Performed malware analysis and threat intelligence research</li>
+                <li>Collaborated with IT teams to remediate security vulnerabilities</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Independent Security Researcher</h3>
+            <p class="date">2020 - Present</p>
+            <ul>
+                <li>Conducted independent security research and vulnerability discovery</li>
+                <li>Published security research findings on Dev.to and security blogs</li>
+                <li>Participated in CTF competitions and security challenges</li>
+                <li>Contributed to open-source security projects</li>
+                <li>Mentored aspiring cybersecurity professionals</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education & Certifications</h2>
+        <div class="experience-item">
+            <h3>Bachelor's Degree in Computer Science</h3>
+            <p class="date">2018 - 2022</p>
+            <p>Focus on Cybersecurity and Network Security</p>
+        </div>
+        <div class="experience-item">
+            <h3>Professional Certifications</h3>
+            <ul>
+                <li>CompTIA Security+ (In Progress)</li>
+                <li>Certified Ethical Hacker (CEH) - Pursuing</li>
+                <li>CISSP Associate (Planned)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Key Projects</h2>
+        <div class="experience-item">
+            <h3>Vulnerability Assessment Framework</h3>
+            <ul>
+                <li>Developed automated vulnerability scanning and reporting system</li>
+                <li>Integrated multiple security tools for comprehensive assessments</li>
+                <li>Reduced assessment time by 60% while improving accuracy</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Security Awareness Training Program</h3>
+            <ul>
+                <li>Created interactive security awareness content and training materials</li>
+                <li>Implemented phishing simulation and security testing programs</li>
+                <li>Achieved 80% improvement in security awareness metrics</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Technical Expertise</h2>
+        <ul>
+            <li><strong>Operating Systems:</strong> Windows, Linux (Ubuntu, Kali), macOS</li>
+            <li><strong>Programming Languages:</strong> Python, JavaScript, Bash, PowerShell</li>
+            <li><strong>Security Frameworks:</strong> OWASP, NIST, ISO 27001</li>
+            <li><strong>Cloud Security:</strong> AWS Security, Azure Security Center</li>
+            <li><strong>Network Security:</strong> Firewalls, IDS/IPS, VPN, Network Segmentation</li>
+            <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Awards & Recognition</h2>
+        <ul>
+            <li>Top 10% CTF Competition Participant (2023)</li>
+            <li>Security Research Publication Award (2022)</li>
+            <li>Outstanding Security Professional Recognition (2021)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Languages</h2>
+        <ul>
+            <li>English (Professional)</li>
+            <li>Sinhala (Native)</li>
+            <li>Tamil (Conversational)</li>
+        </ul>
+    </div>
+</body>
+</html>
