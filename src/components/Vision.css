@@ -1,0 +1,103 @@
+/* ========================================
+   VISION SECTION - COMPACT DESIGN
+   ======================================== */
+
+.vision {
+  padding: 80px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #1a1a1a 100%) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Background decorative elements - smaller and subtle */
+.vision::before {
+  content: '' !important;
+  position: absolute !important;
+  top: -5% !important;
+  right: -5% !important;
+  width: 30% !important;
+  height: 110% !important;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.03) 0%, transparent 70%) !important;
+  border-radius: 50% !important;
+  animation: float 12s ease-in-out infinite !important;
+}
+
+.vision::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -10% !important;
+  left: -10% !important;
+  width: 40% !important;
+  height: 120% !important;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.02) 0%, transparent 60%) !important;
+  border-radius: 50% !important;
+  animation: float 15s ease-in-out infinite reverse !important;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.vision-content {
+  max-width: 700px !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 2 !important;
+  padding: 0 2rem !important;
+}
+
+.vision-text {
+  position: relative !important;
+}
+
+.vision-text p {
+  font-size: 1.4rem !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  line-height: 1.6 !important;
+  font-weight: 500 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+  font-style: italic !important;
+}
+
+/* Responsive Design - compact layout */
+@media (max-width: 768px) {
+  .vision {
+    padding: 60px 0 !important;
+  }
+
+  .vision-content {
+    padding: 0 1rem !important;
+  }
+
+  .vision-text p {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .vision {
+    padding: 40px 0 !important;
+  }
+
+  .vision-content {
+    padding: 0 1rem !important;
+  }
+
+  .vision-text p {
+    font-size: 1.1rem !important;
+  }
+}

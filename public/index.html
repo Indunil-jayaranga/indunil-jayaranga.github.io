@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Indunil Jayaranga - Cybersecurity Analyst | Digital Forensics Specialist | Security Researcher"
+    />
+    <title>Indunil Jayaranga - Cybersecurity Portfolio</title>
+    
+    <!-- HTTPS Redirect -->
+    <script>
+      if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+        location.replace('https:' + window.location.href.substring(window.location.protocol.length));
+      }
+    </script>
+    
+    <!-- Custom Cursor -->
+    <style>
+      * {
+        cursor: none !important;
+      }
+      
+      .custom-cursor {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(45deg, #387478, #629584);
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 10000;
+        transition: transform 0.1s ease;
+        transform: translate(-50%, -50%);
+      }
+      
+      .custom-cursor.clicking {
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Custom cursor script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const cursor = document.createElement('div');
+        cursor.className = 'custom-cursor';
+        document.body.appendChild(cursor);
+        
+        document.addEventListener('mousemove', function(e) {
+          cursor.style.left = e.clientX + 'px';
+          cursor.style.top = e.clientY + 'px';
+        });
+        
+        document.addEventListener('mousedown', function() {
+          cursor.classList.add('clicking');
+        });
+        
+        document.addEventListener('mouseup', function() {
+          cursor.classList.remove('clicking');
+        });
+      });
+    </script>
+  </body>
+</html>
